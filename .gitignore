@@ -1,0 +1,47 @@
+# Generated models, saved assumptions/notes, previews and local inspection logs
+/outputs/
+*.inputs.json
+*.log
+*.download
+
+# Only reviewed public source files belong in the source cache
+/data/raw/*
+!/data/raw/vista_historical.xlsx
+!/data/raw/vista_2024_audited.pdf
+!/data/raw/vista_2025_audited.pdf
+!/data/raw/download_metadata.json
+
+# Dependencies and interpreter caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# Editor and operating-system temporary files
+~$*
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
